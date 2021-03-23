@@ -42,7 +42,8 @@ this commented above is statement-specific way of utilising border-boxes, look a
 
 .nav {
 
-  position: absolute;
+  float: left;
+  /*position: absolute;*/
   left: 0px;
   width: 200px;
 
@@ -68,5 +69,12 @@ this commented above is statement-specific way of utilising border-boxes, look a
 body {
 
   margin-bottom: 100px;
+
+}
+
+img {
+
+  float: right;
+  margin: 0 0 1em 1em;
 
 }
